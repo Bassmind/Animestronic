@@ -3,6 +3,7 @@ source 'https://rubygems.org'
 gem 'rails', '3.2.8'
 gem 'pg'
 gem 'devise'
+gem 'cancan'
 
 group :development do
 	gem 'debugger'
