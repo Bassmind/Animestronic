@@ -11,10 +11,15 @@ end
 
 group :development, :test do
 	gem 'rspec-rails'
+	gem 'factory_girl_rails'
+	gem 'guard-rspec'
 end
 
 group :test do
-	gem 'factory_girl'
+	gem 'faker'
+	gem 'capybara'
+	gem 'database_cleaner'
+	gem 'launchy'
 end
 
 # Gems used only for assets and not required
